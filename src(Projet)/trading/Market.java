@@ -20,7 +20,7 @@ public class Market {
 
     // Méthode qui collabore avec Trader
     public double calculateAdjustedPnL(Trader trader) {
-        // Obtient le PnL du trader et l'ajuste en fonction du marketFactor
+        // Obtient le P&L du trader et on l'ajuste en fonction du marketFactor
         double traderPnL = trader.getPnl();
         return traderPnL * marketFactor; // Ajuste le PnL basé sur le facteur du marché
     }
